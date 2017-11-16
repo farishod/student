@@ -5,17 +5,16 @@ Intelligent Control
 
     Subject: PID Controller Tuning Using Evolution Strategy ES (mi, lambda)
 
-Application was created to find  optimal  configuration  of the  PID controller
-using  evaluation  strategy ES (mi, lambda). This  strategy  selects  the  best
-children  (mi is  count  of  children) and  use  them  in  next  generation  of
-algorithm.  The  best  potential  solution will be selected from the set of the
+Application was created to find optimal configuration of the PID controller
+using evaluation strategy ES (mi, lambda). This strategy selects the best
+children (mi is number of children) and use them in next generation of
+algorithm. The best potential solution will be selected from the set of the
 lambda units. It is clear that 1<=mi<=lambda. The parameters in first iteration
-are  tuned  by Ziegler - Nichols  method (for  system  greater  than two), four
-Chien-Hrones-Reswick  autotuning  methods  (two  for  stability  and  two  for
-accompanying regulation, both for system  with order greater than one), and for
-simple  systems  (order  one)  using  random  numbers  for  parameters of first
-iteration.
-
+are tuned by Ziegler - Nichols method (for second order system and above), four
+Chien-Hrones-Reswick autotuning methods (two for stability and two for
+accompanying regulation, both groups for system with order greater than one),
+and for simple systems (first order system) using random numbers for parameters
+of first iteration.
 
 Sarajevo, 28.01.2010.                                     Creator: Faris Hodzic
 
