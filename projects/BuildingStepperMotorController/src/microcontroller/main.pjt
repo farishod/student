@@ -1,0 +1,29 @@
+[PROJECT]
+Target=F:\main.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[F:\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=F:\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=
+[Target Data]
+OptionString=-p +FM
+FileList=main.c
+[documentation]
+template=C:\Program Files\PICC\template_sdd.rtf
+output=main.rtf
+[Units]
+Count=1
+1=main.c (main)
+Link=0
