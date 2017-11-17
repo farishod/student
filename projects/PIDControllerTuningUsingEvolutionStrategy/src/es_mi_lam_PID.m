@@ -455,8 +455,8 @@ end
 % --- Sljedeci kod se izvrsava pritiskom na dugme "??" koje daje vise
 % informacija o projektu, u vidu dokumentacije
 function help1_Callback(hObject, eventdata, handles)
-if exist('dokumentacija.pdf')
-    open('dokumentacija.pdf')
+if exist('..\doc\PIDControllerTuningUsingEvolutionStrategy.doc')
+    open('..\doc\PIDControllerTuningUsingEvolutionStrategy.doc')
 else
     msgbox('Dokumentacija se ne nalazi u direktoriju.','Upozorenje','warn')
 end
